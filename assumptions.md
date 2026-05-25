@@ -1,0 +1,2 @@
+**Self-Referenced Execution:** We assume that if a coding contest gets deleted entirely (`ON DELETE CASCADE`), its subsequent structural metadata safely drops away, but the submission attempts track persistently via archival records if necessary.
+ **Unique Identifiers:** Natural student emails are unique globally, allowing them to act as safe alternative candidate key structures across independent platforms.
